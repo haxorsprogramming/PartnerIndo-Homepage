@@ -1,0 +1,17 @@
+.row
+{
+    display: flex;
+    margin-left: 100px;
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+  
+.column {
+    flex: 50%;
+}
+
+.img-grab-sec-mid
+{
+    margin-bottom: 10px;  
+}

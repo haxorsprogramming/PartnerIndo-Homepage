@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PageCon@loginPage');
+Route::get('/profile', 'PageCon@loginPage');
+Route::get('/service', 'PageCon@loginPage');
+Route::get('/product', 'PageCon@loginPage');
+Route::get('/news-insight', 'PageCon@loginPage');
