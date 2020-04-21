@@ -11,7 +11,24 @@
     flex: 50%;
 }
 
+.column-contact {
+    flex: 50%;
+    padding-left:50px;
+    padding-right:50px;
+    text-align: left;
+}
+
+.label-contact {
+    color:white;
+    font-size: large;
+}
+
 .img-grab-sec-mid
 {
-    margin-bottom: 10px;  
+    margin-bottom: 10px;
+    padding-left:30px;  
+}
+
+input{
+   padding:2px;
 }

@@ -16,6 +16,7 @@
 
     <link rel="stylesheet" href="{{ asset('/ladun/css/style.css')}}">
     <link rel="stylesheet" href="{{ asset('/ladun/css/home.css')}}">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 

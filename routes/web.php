@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'PageCon@loginPage');
-Route::get('/profile', 'PageCon@loginPage');
-Route::get('/service', 'PageCon@loginPage');
-Route::get('/product', 'PageCon@loginPage');
-Route::get('/news-insight', 'PageCon@loginPage');
+Route::get('/', 'PageCon@home');
+Route::get('/profile', 'PageCon@profile');
+Route::get('/service', 'PageCon@service');
+Route::get('/product', 'PageCon@product');
+Route::get('/news-insight', 'PageCon@news');

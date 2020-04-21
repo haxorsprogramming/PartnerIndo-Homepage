@@ -6,8 +6,13 @@ use Illuminate\Http\Request;
 
 class PageCon extends Controller
 {
-    public function loginPage()
+    public function home()
     {
         return view('page.home');
+    }
+
+    public function profile()
+    {
+        return view('page.profile');
     }
 }
