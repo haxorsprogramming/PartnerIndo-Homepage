@@ -61,6 +61,7 @@
 
     <div class="text-tags aos-init aos-animate" data-aos="fade-up" style="padding-top:100px;">
         <h2>Contact Us</h2>
+        <span>Contact details</span>
         <div class="row">
             <div class="column-contact">
                 <div class="img-grab-sec-mid">
@@ -89,8 +90,57 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="column-contact">
+                <div class="img-grab-sec-mid">
+                    <label class="label-contact">Organisation</label>
+                    <input class="w3-input" type="text">
+                </div>
+            </div>
+            <div class="column-contact">
+                <div class="img-grab-sec-mid">
+                    <label class="label-contact">Location</label>
+                    <select class="w3-select" name="option">
+                        <option value="1">Australia</option>
+                        <option value="2">Indonesia</option>
+                        <option value="3">Singapura</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column-contact">
+                <div class="img-grab-sec-mid">
+                    <label class="label-contact">Message</label>
+                    <textarea class="w3-input text-area-contact"></textarea>
+                    <br />
+                    <button class="w3-btn w3-ripple w3-red">Send message</button>
+                </div>
+            </div>
+            <div class="column-contact">
+                <div class="img-grab-sec-mid">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column-contact-map">
+                <div>
+                <label class="label-contact">Our Office</label>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.29646676443!2d106.8087786147691!3d-6.22458549549411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1505c76d775%3A0xe8503eecf84be674!2sSudirman%20Central%20Business%20District!5e0!3m2!1sen!2sid!4v1587490357141!5m2!1sen!2sid"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+            <div class="column-contact">
+                <div class="img-grab-sec-mid">
+
+                </div>
+            </div>
+        </div>
 </main>
 </div>
-
 </main>
+
 @endsection

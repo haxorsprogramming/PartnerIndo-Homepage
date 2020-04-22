@@ -18,9 +18,21 @@
     text-align: left;
 }
 
+.column-contact-map{
+    flex: 50%;
+    padding-left:80px;
+    padding-right:50px;
+    text-align: left;
+}
+
 .label-contact {
     color:white;
     font-size: large;
+}
+
+.text-area-contact{
+    height: 140px;
+    resize: none;
 }
 
 .img-grab-sec-mid
@@ -31,4 +43,8 @@
 
 input{
    padding:2px;
+}
+
+.profile-body {
+    margin-top:30px;
 }

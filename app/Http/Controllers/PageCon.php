@@ -15,4 +15,9 @@ class PageCon extends Controller
     {
         return view('page.profile');
     }
+
+    public function service()
+    {
+        return view('page.service');
+    }
 }

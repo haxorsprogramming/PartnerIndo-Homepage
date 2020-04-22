@@ -152,78 +152,21 @@
                     <img src="{{asset('/ladun/img/logo_default.png')}}" alt="" />
                 </a>
             </div>
-
             <ul class="footer__social__links">
                 <li>Follow us</li>
-                <li>
-                    <a href="https://www.linkedin.com/company/allen-&amp;-overy" class="linkedin"
-                        rel="noopener noreferrer" target="_blank"> <span>
-                            Linkedin
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/allenovery" class="twitter" rel="noopener noreferrer" target="_blank">
-                        <span>
-                            Twitter
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/channel/UCuXjDxCSVAfT8MAJoAI3joA" class="youtube"
-                        rel="noopener noreferrer" target="_blank"> <span>
-                            YouTube
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="/en-gb/global/wechat" class="wechat" rel="noopener noreferrer" target="_blank"> <span>
-                            WeChat
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.xing.com/company/allenovery/updates" class="xing" rel="noopener noreferrer"
-                        target="_blank"> <span>
-                            Xing
-                        </span>
-                    </a>
-                </li>
             </ul>
-
-
-            <ul class="footer__links">
-                <li>
-                    <a href="/en-gb/global/legal-notices/accessibility" class="" target="">Accessibility</a>
-
-                </li>
-                <li>
-                    <a href="/en-gb/global/sitemap" class="" target="">Site map</a>
-
-                </li>
-                <li>
-                    <a href="/en-gb/global/legal-notices" class="" target="">Legal notices</a>
-
-                </li>
-                <li>
-                    <a href="/en-gb/global/legal-notices/cookies" class="" target="">Cookies policy</a>
-
-                </li>
-                <li>
-                    <a href="/en-gb/global/legal-notices/privacy-policy" class="" target="">Privacy policy</a>
-
-                </li>
-                <li>
-                    <a href="/global/-/media/allenovery/2_documents/about_us/legal_notices/modern_slavery_statement_2019.pdf"
-                        class="" rel="noopener noreferrer" target="_blank" title="Anti slavery state">Anti-slavery and
-                        human trafficking statement</a>
-                </li>
+            <ul class="footer__links"  id='divFooter'>
+                <li><a href="#!" class="">Home</a></li>
+                <li><a href="#!" class="">Our Profile</a></li>
+                <li><a href="#!" class="">Service</a></li>
+                <li><a href="#!" class="">Product</a></li>
+                <li><a href="#!" class="">News & Insight</a></li>
+                <li><a href="#!" class="">Career</a></li>
+                <li><a href="#!" class="">Contact Us</a></li>
             </ul>
-
             <div class="footer__copy">
                 <div>2020 &copy; Partnerindo</div>
             </div>
-
         </div>
     </footer>
     <script src="{{asset('/ladun/js/scripts.min.js')}}"></script>
